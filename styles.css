@@ -1,0 +1,97 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 1000px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    width: 99%;
+    bottom: 0;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 19%;
+    padding: 8px;
+    padding-left: 0px;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.music-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.duration {
+    font-weight: bold;
+}
+
+.info {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.genres {
+    color: #808080; /* Сероватый цвет для жанров */
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.actions audio {
+    margin-right: 10px;
+}
+
+.actions button {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
